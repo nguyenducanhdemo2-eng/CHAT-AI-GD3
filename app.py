@@ -5,7 +5,7 @@ import google.genai as genai
 app = Flask(__name__)
 
 # ĐIỀN API KEY VÀO ĐÂY HOẶC SỬ DỤNG BIẾN MÔI TRƯỜNG
-API_KEY = os.environ.get("API_KEY", "AQ.Ab8RN6JlPDSqHTFv9kIeiVzV8CWgfxr6kCRmv17yqZfRtaCsCA")
+API_KEY = os.environ.get("API_KEY", "AQ.Ab8RN6IpQYubQ04IuV11wVCBSI5AVTgLe3bjVy4S0-UfvEA8Gg")
 if not API_KEY:
     raise ValueError("Thiếu API_KEY. Thiết lập biến môi trường API_KEY hoặc gán trực tiếp vào app.py")
 
